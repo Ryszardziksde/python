@@ -1,0 +1,18 @@
+pkt = int(input("Podaj ile punktów zdoyła twoja klasa: "))
+#print("Twoja klasa zdobyła " + pkt + " punktów!")
+
+frk = input("Podaj frekwencje twojej klasy (nie wpisuj znaku %!): ")
+#print("Twoja klasa ma " + frk + ' frekwencji')
+
+oceny = input("Podaj srednia ocen klasy: ")
+#print("Twoja klasa ma rednia " +  oceny )
+
+punkty = pkt
+
+if (float(frk) >= 94 and float(oceny) >= 4):
+    punkty = pkt + 20
+else :
+    punkty = pkt
+    
+print(punkty)
+    
